@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+  padding: 10px;
+
+}
+.dark{
+  background-color: rgb(67, 66, 66);
+  color: white;
+}
+.lite{
+  background-color: white;
+  color: black;
+}
+.mode{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+@media screen and (max-width:800px){
+  .App{
+    min-height: 100vh;
+  }
+}
+
