@@ -37,7 +37,7 @@ const Home = () => {
         return prev + 1
       })
 
-      if (timer >= 30) {
+      if (timer >= 5) {
         setTimer(0)
         setQuestionNumber((prev) => {
           return prev + 1
